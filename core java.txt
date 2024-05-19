@@ -1,0 +1,104 @@
+core java
+
+installing java
+----------------
+
+jdk
+https://www.oracle.com/in/java/technologies/downloads/#jdk22-windows
+
+eclipse ok
+
+=======================================================
+
+
+
+
+=======================================================
+
+
+public class datattypeAndVarExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       boolean result;
+       result = true;
+       int bikeSpeed = 60;
+       int increasedBikeSpeed;
+       System.out.println("Result is "+result);
+	   System.out.println("Bike speed is "+bikeSpeed);
+	   
+	   increasedBikeSpeed = bikeSpeed + 20;
+	    
+	   System.out.println("Increased Bike speed is "+increasedBikeSpeed);
+	}
+
+}
+======================================================
+
+
+public class dataTypeandVarExample2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     int a = 10;
+     double b = 20.3;
+     double c = 2.54343;
+     
+     System.out.println("The vale of a is: "+a);
+     System.out.println("The vale of b is: "+b);
+     System.out.println("The value of c is: "+c);
+	}
+
+}
+
+
+======================================================
+
+public class ArithmeticOperatorsExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int a, b=20, c=40;
+        
+        a = b+c;
+        System.out.println("Addition of b and c is :"+a);
+        
+        a=b-c;
+        System.out.println("Difference of b and c is :"+a);
+        
+        a=b*c;
+        System.out.println("Multiplication of b and c is :"+a);
+
+        a=c/b;
+        System.out.println("Division of b and c is :"+a);
+     
+        a=b%c;
+        System.out.println("Mod of b and c is :"+a);
+        
+        c++;
+        System.out.println("Value of c after increment"+c);
+ 
+        b--;
+        System.out.println("Value of b after decrement"+b);
+	}
+}
+=======================================================
+
+public class LogicalOperatorsExample {
+
+	//And Operator && This returns true if output of both the operands are true
+	//OR Operator || This becomes true if any one of the operand is true
+	// NOT Operator : ! this inverts the condition
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       boolean value1 = true;
+       boolean value2 = false;
+       System.out.println("AND Operator:"+(value1 && value2));
+       System.out.println("OR Operator:"+(value1 || value2));
+       System.out.println("NOT Operator:"+(!value1));
+
+       
+	}
+
+}
